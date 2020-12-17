@@ -5,7 +5,7 @@ dapp: https://nftgem.herokuapp.com/
 NFT-GEM is Visual Memory test game.where people can test their memory by selecting pair of same pictures.
 Users Earn a NFT's as a MEMORY token on Bianance Smart Chain.
 ### Demo
-[![NFT_GEM Demo](http://img.youtube.com/vi/xPUI9Eku4pE/default.jpg)](https://youtu.be/xPUI9Eku4pE)
+[![NFT_GEM Demo](http://img.youtube.com/vi/TymFC_lgRjM/default.jpg)](https://youtu.be/TymFC_lgRjM)
 
 
 #### MemoryToken Contract on BSC Testnet
