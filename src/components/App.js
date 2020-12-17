@@ -147,7 +147,7 @@ class App extends Component {
       .on('transactionHash', (hash) => {
         this.setState({
           cardsWon: [...this.state.cardsWon, optionOneId, optionTwoId],
-          tokenURIs: [...this.state.tokenURIs, CARD_ARRAY[optionOneId].img]
+          tokenURIs: [...this.state.tokenURIs, 'https://infinite-reef-34344.herokuapp.com/' + CARD_ARRAY[optionOneId].img.toString()]
         })
       })
     } else {
