@@ -141,13 +141,13 @@ class App extends Component {
       alert('You found a match')
       this.state.token.methods.mint(
         this.state.account,
-        'https://infinite-reef-34344.herokuapp.com/' + CARD_ARRAY[optionOneId].img.toString()
+        'https://nftgem.herokuapp.com/' + CARD_ARRAY[optionOneId].img.toString()
       )
       .send({ from: this.state.account })
       .on('transactionHash', (hash) => {
         this.setState({
           cardsWon: [...this.state.cardsWon, optionOneId, optionTwoId],
-          tokenURIs: [...this.state.tokenURIs, 'https://infinite-reef-34344.herokuapp.com/' + CARD_ARRAY[optionOneId].img.toString()]
+          tokenURIs: [...this.state.tokenURIs, 'https://nftgem.herokuapp.com/' + CARD_ARRAY[optionOneId].img.toString()]
         })
       })
     } else {
