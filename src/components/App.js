@@ -141,7 +141,7 @@ class App extends Component {
       alert('You found a match')
       this.state.token.methods.mint(
         this.state.account,
-        window.location.origin + CARD_ARRAY[optionOneId].img.toString()
+        'https://infinite-reef-34344.herokuapp.com/' + CARD_ARRAY[optionOneId].img.toString()
       )
       .send({ from: this.state.account })
       .on('transactionHash', (hash) => {
