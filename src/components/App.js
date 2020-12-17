@@ -187,7 +187,7 @@ class App extends Component {
             rel="noopener noreferrer"
           >
           <img src={brain} width="30" height="30" className="d-inline-block align-top" alt="" />
-          &nbsp; Memory Tokens
+          &nbsp; NFT_GEM
           </a>
           <ul className="navbar-nav px-3">
             <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
@@ -199,9 +199,16 @@ class App extends Component {
           <div className="row">
             <main role="main" className="col-lg-12 d-flex text-center">
               <div className="content mr-auto ml-auto">
-                <h1 className="d-4">Start matching now!</h1>
+                <h1 className="d-4">Welcome to NFT-GEM!</h1>
+                <p class="d-4">Test your memory with this memory game. On the game board,
+                  there are always two identical images. Start the game by flipping a card.
+                   Then try to find another card that has the same image as the first. If you can't 
+                   find a pair, the flipped cards will be flipped back with the face down. Try
+                    to remember these images as it becomes easier to find pairs the longer you play.
+                     When you find a pair they are removed from the board and after
+                     correct match you also Earn 1 MEMORY Token on Binanace Smart Chain. </p>
 
-                <div className="grid mb-4" >
+                <div className="grid mb-2" >
 
                   { this.state.cardArray.map((card, key) => {
                     return(
